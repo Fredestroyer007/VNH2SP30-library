@@ -34,9 +34,9 @@ extern "C"
 
     unsigned int VNH2SP30__checkMotorCurrentDraw(VNH2SP30 *self);
 
-    void VNH2SP30__turnOffMotor(VNH2SP30 *self);
+    void VNH2SP30__setMotorState(VNH2SP30 *self, MotorState state);
 
-    void VNH2SP30__turnOnMotor(VNH2SP30 *self, MotorState state);
+    void VNH2SP30__setSpeed(VNH2SP30 *self, uint8_t speed);
 
     MotorState VNH2SP30__getMotorState(VNH2SP30 *self);
 

@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-//Four possible states of the H-Bridge1h1j1
+//Four possible states of the H-Bridge
 //clockwise: foward
 //counterclockwise: backward
 //braketovcc: brake
